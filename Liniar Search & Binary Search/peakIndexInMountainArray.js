@@ -1,4 +1,4 @@
-function peakIndexInMountainArray(arr, target) {
+function peakIndexInMountainArray(arr) {
     let start = 0;
     let end = arr.length - 1;
 
@@ -24,4 +24,4 @@ function peakIndexInMountainArray(arr, target) {
         }
     } 
 }
-console.log(peakIndexInMountainArray([2,3, 5, 3, 2, 0]));
+console.log(peakIndexInMountainArray([1,5, 3, 2, 0]));
